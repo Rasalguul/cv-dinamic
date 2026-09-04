@@ -1,0 +1,33 @@
+/* Estilos globales. El diseño definitivo se añadirá en una fase posterior. */
+:root {
+  --font-family: Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  line-height: 1.5;
+}
+
+.site-header,
+.site-footer {
+  padding: 1rem;
+}
+
+.site-nav {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.site-nav a { text-decoration: none; }
+
+main { min-height: 70vh; }
+
+.hero { padding: 4rem 1rem; }
+
+.site-footer { text-align: center; }
